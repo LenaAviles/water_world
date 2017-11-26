@@ -1,0 +1,39 @@
+@light-blue: #80CDC6;
+
+html { height: 100%; }
+body {
+ margin: 0; /* Убираем отступы */
+ height: 100%; /* Высота страницы */ 
+ background: @light-blue;
+ background-size: cover; /* Фон занимает всю доступную площадь */
+} 
+
+.clouds {
+    float: right;    
+    max-height: 30%;
+    max-width: 80%;
+    margin-top: -1%;
+}
+
+.world {
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 5%;
+    max-height: 80%;   
+}
+
+.wooden-ship {
+    position: fixed;    
+    bottom: 9%; 
+    float: left;   
+    max-height: 30%;
+    max-width: 55%;
+}
+
+.water {
+    position: fixed;
+    bottom: 0;
+    max-height: 11.3%;
+    max-width: 100%;
+}
